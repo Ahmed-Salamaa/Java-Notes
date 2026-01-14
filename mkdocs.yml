@@ -1,0 +1,69 @@
+site_name: Java Programming Notes
+site_description: Comprehensive notes on Java programming and Object-Oriented Programming
+site_author: Ahmed Salama
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Basic Notes: basic-notes.md
+      - Java File Structure: java-file-structure.md
+  - Object-Oriented Programming:
+      - OOP Overview: oop-notes.md
+      - Classes: class.md
+      - Encapsulation: encapsulation.md
+      - Inheritance: inheritance.md
+      - Polymorphism: polymorphism.md
+      - Abstraction: abstraction.md
+  - Advanced Concepts:
+      - Dynamic Binding: dynamic-binding.md
+      - Relationships: relationships.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ahmed-Salamaa
