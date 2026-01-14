@@ -4,7 +4,7 @@ Comprehensive documentation covering Java programming fundamentals and Object-Or
 
 ## 🌐 Live Website
 
-Visit the documentation at: `https://Ahmed-Salamaa.github.io/java-notes/`
+Visit the documentation at: [Visit Me](https://ahmed-salamaa.github.io/Java-Notes/)
 
 ## 📚 Contents
 
