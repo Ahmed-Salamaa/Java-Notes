@@ -4,8 +4,8 @@ Association is the cardinal concept in object-oriented programming that describe
 
 ## Types of Association
 
-- ****Unidirectional Association****: This association is the one in which one class is aware and associated with another class; the reverse is not true. For example, the Student class can be associated with the LibraryCard class, for the association where the student has a library card; a LibraryCard does not need to 'know about' a Student.
-- ****Bidirectional Association****: In this type of association, the classes are aware of each other and interact with one another. For example, a Teacher class and a Classroom class may be associated bidirectionally; there would be a teacher assigned to a classroom, and a classroom would know to which teacher it is assigned.
+- **Unidirectional Association**: This association is the one in which one class is aware and associated with another class; the reverse is not true. For example, the Student class can be associated with the LibraryCard class, for the association where the student has a library card; a LibraryCard does not need to 'know about' a Student.
+- **Bidirectional Association**: In this type of association, the classes are aware of each other and interact with one another. For example, a Teacher class and a Classroom class may be associated bidirectionally; there would be a teacher assigned to a classroom, and a classroom would know to which teacher it is assigned.
 
 ## Association Example:
 
@@ -119,11 +119,11 @@ Aggregation is a relationship that comes under object-oriented programming, clas
 
 Aggregation is a type of association that represents a relationship where one class is a collection or container of another class. It depicts a "has-a" relationship, where the container object can exist independently of its contents, and the contained objects can exist independently of the container.
 
-****t is a special form of Association where:****  
+**t is a special form of Association where:**  
 
 - It represents Has-A's relationship.
-- It is a ****unidirectional association**** i.e. a one-way relationship. For example, a department can have students but vice versa is not possible and thus unidirectional in nature.
-- In Aggregation, ****both entries can survive individually**** which means ending one entity will not affect the other entity.
+- It is a **unidirectional association** i.e. a one-way relationship. For example, a department can have students but vice versa is not possible and thus unidirectional in nature.
+- In Aggregation, **both entries can survive individually** which means ending one entity will not affect the other entity.
 
 ## Aggregation Example:
 
@@ -285,7 +285,7 @@ In this example,
 - That means Institute class is associated with Department class through its Object(s).
 - And Department class has also a reference to Object or Objects (i.e. List of Objects) of the Student class means it is associated with the Student class through its Object(s).
 
-It represents a ****Has-A**** relationship. In the above example: Student ****Has-A**** name. Student ****Has-A**** ID. Department ****Has-A**** Students as depicted from the below media.
+It represents a **Has-A** relationship. In the above example: Student **Has-A** name. Student **Has-A** ID. Department **Has-A** Students as depicted from the below media.
 
 ![]( https://media.geeksforgeeks.org/wp-content/uploads/Reference.png )
 
@@ -294,13 +294,13 @@ It represents a ****Has-A**** relationship. In the above example: Student **
 
 Composition is a core concept in object-oriented programming that refers to the relationship "part-of" between classes. It is a stronger form of association in which the contained objects' lifecycle is strongly associated with the container object's lifecycle. The understanding of composition is crucial in the design of complex systems where objects of the system are composed of other objects.
 
-****Composition**** is a type of association meaning one class "contains" another. This association can be said to be a "part-of" relationship and would denote that the contained object is strongly connected with the containing object, the whole. The parts cannot be without the whole.
+**Composition** is a type of association meaning one class "contains" another. This association can be said to be a "part-of" relationship and would denote that the contained object is strongly connected with the containing object, the whole. The parts cannot be without the whole.
 
 Composition is a restricted form of Aggregation in which two entities are highly dependent on each other.  
 
-- It represents ****part-of**** relationship.
+- It represents **part-of** relationship.
 - In composition, both entities are dependent on each other.
-- When there is a composition between two entities, the composed object ****cannot exist**** without the other entity.
+- When there is a composition between two entities, the composed object **cannot exist** without the other entity.
 
 
 ## Composition Example:
