@@ -54,6 +54,3 @@ mkdocs gh-deploy
 
 Educational content - feel free to use for learning purposes.
 
-## 👤 Author
-
-Ahmed Salama
